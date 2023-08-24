@@ -2,7 +2,7 @@
 
 /**
  * is_printable - Function that evaluates if a char is printable
- * @c: Character to be evaluated.
+ * @c: For the characters to be evaluated.
  *
  * Return: 1 if c is printable, 0 otherwise
  */
@@ -16,9 +16,9 @@ int is_printable(char c)
 
 /**
  * append_hexa_code - Function that append ascci in hexadecimal code to buffer
- * @buffer: For array of characters
- * @i: For index at which to start appending.
- * @ascii_code: For ASSCI CODE.
+ * @buffer: For the array of characters
+ * @i: For the index at which to start appending.
+ * @ascii_code: For the ASSCI CODE.
  * Return: Always 3
  */
 int append_hexa_code(char ascii_code, char buffer[], int i)
@@ -39,7 +39,7 @@ int append_hexa_code(char ascii_code, char buffer[], int i)
 
 /**
  * is_digit - Function that verifies if a char is a digit
- * @c: For characters to be evaluated
+ * @c: For the character to be evaluated
  *
  * Return: 1 if c is a digit, 0 otherwise
  */
@@ -52,9 +52,9 @@ int is_digit(char c)
 }
 
 /**
- * convert_size_number - Funtion that casts a number to the specified size
- * @num: For number to be casted.
- * @size: For number indicating the type to be casted.
+ * convert_size_number - Function that casts a number to the specified size
+ * @num: For the number to be casted.
+ * @size: For the number indicating the type to be casted.
  *
  * Return: Casted value of number
  */
@@ -70,8 +70,8 @@ long int convert_size_number(long int num, int size)
 
 /**
  * convert_size_unsgnd - Function that casts a number to the specified size
- * @num: For number to be casted
- * @size: For number indicating the type to be casted
+ * @num: For the number to be casted
+ * @size: for the number indicating the type to be casted
  *
  * Return: Casted value of number
  */
